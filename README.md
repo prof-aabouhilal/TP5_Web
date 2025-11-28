@@ -1,65 +1,65 @@
-**TP 5 : JavaScript**
+## **TP 5 : JavaScript**
 
-Comment demander une saisie utilisateur en JavaScript ?
-Pour demander à l’utilisateur d’entrer une valeur dans une fenêtre de saisie, utilisez :
-let valeur = prompt("Veuillez entrer une valeur : ");
+Comment demander une saisie utilisateur en JavaScript ? <br>
+Pour demander à l’utilisateur d’entrer une valeur dans une fenêtre de saisie, utilisez :<br>
+let valeur = prompt("Veuillez entrer une valeur : ");<br>
 
-prompt() retourne une chaîne de caractères
-Pour convertir en nombre :
-let n = Number(prompt("Entrez un nombre : "));
+prompt() retourne une chaîne de caractères<br>
+Pour convertir en nombre :<br>
+let n = Number(prompt("Entrez un nombre : "));<br>
 
 **Exercice 1 — Détection du type d’une variable**
 
-Déclarez les variables suivantes :
-x = "150"
-y = 150
-z = true
-Travail demandé :
-Afficher le type de chaque variable avec typeof.
-Convertir x en nombre et afficher son nouveau type.
-Expliquer pourquoi JavaScript peut changer dynamiquement le type d’une variable.
+Déclarez les variables suivantes :<br>
+x = "150"<br>
+y = 150<br>
+z = true<br>
+Travail demandé :<br>
+Afficher le type de chaque variable avec typeof.<br>
+Convertir x en nombre et afficher son nouveau type.<br>
+Expliquer pourquoi JavaScript peut changer dynamiquement le type d’une variable.<br>
 
 **Exercice 2 — Manipulation de chaînes et concaténation**
 
-Déclarez :
-prenom = "Sara"
-age = 22
-Travail demandé :
-Construire la phrase : "Je m'appelle Sara et j'ai 22 ans".
-Modifier l’âge en 23 sans recréer toute la chaîne (utiliser une variable intermédiaire).
+Déclarez :<br>
+prenom = "Sara"<br>
+age = 22<br>
+Travail demandé :<br>
+Construire la phrase : "Je m'appelle Sara et j'ai 22 ans".<br>
+Modifier l’âge en 23 sans recréer toute la chaîne (utiliser une variable intermédiaire).<br>
 
 **Exercice 3 — Condition imbriquée : classification d’un nombre**
 
-Demandez un nombre à l’utilisateur avec prompt().
-Affichez :
-"Nombre négatif" si < 0
-"Petit" entre 0 et 10
-"Moyen" entre 11 et 50
-"Grand" si > 50
-"Très grand" si > 100
-Utilisez des conditions imbriquées.
+Demandez un nombre à l’utilisateur avec prompt().<br>
+Affichez :<br>
+"Nombre négatif" si < 0<br>
+"Petit" entre 0 et 10<br>
+"Moyen" entre 11 et 50<br>
+"Grand" si > 50<br>
+"Très grand" si > 100<br>
+Utilisez des conditions imbriquées.<br>
 
 **Exercice 4 — Multiples de 3 et 5 dans une plage**
 
-Demander deux nombres :
-let min = Number(prompt("Entrez le nombre minimal : "));
-let max = Number(prompt("Entrez le nombre maximal : "));
-Affichez tous les nombres entre min et max :
-"Three" si multiple de 3
+Demander deux nombres :<br>
+let min = Number(prompt("Entrez le nombre minimal : "));<br>
+let max = Number(prompt("Entrez le nombre maximal : "));<br>
+Affichez tous les nombres entre min et max :<br>
+"Three" si multiple de 3<br>
 
-"Five" si multiple de 5
+"Five" si multiple de 5<br>
 
-"Five&Three" si multiple de 3 et 5
+"Five&Three" si multiple de 3 et 5<br>
 
 **Exercice 5 — Table de multiplication dynamique**
 
-Demandez un nombre n.
-Afficher sa table de multiplication jusqu’à 10 :
-n x 1 = …
-n x 2 = …
-…
-n x 10 = …
-Utilisez une boucle for.
+Demandez un nombre n.<br>
+Afficher sa table de multiplication jusqu’à 10 :<br>
+n x 1 = …<br>
+n x 2 = …<br>
+…<br>
+n x 10 = …<br>
+Utilisez une boucle for.<br>
 
 **Exercice 6 — Somme des nombres pairs et impairs**
 

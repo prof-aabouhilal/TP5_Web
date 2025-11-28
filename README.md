@@ -1,4 +1,4 @@
-## **TP 5 : JavaScript**
+# **TP 5 : JavaScript**
 
 Comment demander une saisie utilisateur en JavaScript ? <br>
 Pour demander à l’utilisateur d’entrer une valeur dans une fenêtre de saisie, utilisez :<br>
@@ -63,47 +63,47 @@ Utilisez une boucle for.<br>
 
 **Exercice 6 — Somme des nombres pairs et impairs**
 
-Calculez à l’aide d’une boucle :
-La somme des nombres pairs entre 1 et 50.
-La somme des nombres impairs entre 1 et 50.
-Affichez les deux résultats dans la console.
+Calculez à l’aide d’une boucle :<br>
+La somme des nombres pairs entre 1 et 50.<br>
+La somme des nombres impairs entre 1 et 50.<br>
+Affichez les deux résultats dans la console.<br>
 
 **Exercice 7 — Fonction : validation d’un mot de passe**
 
-Créer une fonction verifierMotDePasse(mdp) qui retourne true si :
-le mot de passe fait au moins 8 caractères
-contient le symbole @
-Sinon, elle retourne false.
-Demandez ensuite un mot de passe utilisateur via prompt() puis affichez :
-"Mot de passe valide" ou
-"Mot de passe non valide"
+Créer une fonction verifierMotDePasse(mdp) qui retourne true si :<br>
+le mot de passe fait au moins 8 caractères<br>
+contient le symbole @<br>
+Sinon, elle retourne false.<br>
+Demandez ensuite un mot de passe utilisateur via prompt() puis affichez :<br>
+"Mot de passe valide" ou<br>
+"Mot de passe non valide"<br>
 
 **Exercice 8 — Fonction : calcul d’un total avec remise**
 
-Créer une fonction totalAvecRemise(total, remise) qui retourne :
-totalFinal = total - (total * remise / 100)
-Demandez à l’utilisateur :
-un total HT
-une remise en %
-Puis affichez le total final.
+Créer une fonction totalAvecRemise(total, remise) qui retourne :<br>
+totalFinal = total - (total * remise / 100)<br>
+Demandez à l’utilisateur :<br>
+un total HT<br>
+une remise en %<br>
+Puis affichez le total final.<br>
 
 **Exercice 9 — Fonction récursive : calcul de la factorielle**
 
-Créer une fonction récursive factorielle(n) :
-Si n = 0, retourner 1
-Sinon retourner n * factorielle(n - 1)
-Exemple attendu :
-factorielle(5)  // 120
+Créer une fonction récursive factorielle(n) :<br>
+Si n = 0, retourner 1<br>
+Sinon retourner n * factorielle(n - 1)<br>
+Exemple attendu :<br>
+factorielle(5)  // 120<br>
 
 **Exercice 10 — Comparaison itératif vs récursif**
 
-Créer deux fonctions pour calculer la somme des entiers de 1 à n :
-Version 1 : boucle
-sommeIterative(n)
-Version 2 : récursion
-sommeRecursive(n)
-Analyse demandée :
-1 - Quel code est le plus lisible ?
-2 - Quel code est le plus performant ?
-3 - La récursion peut-elle poser des problèmes ? Pourquoi ?
-4 - Dans quels cas privilégier une boucle ?
+Créer deux fonctions pour calculer la somme des entiers de 1 à n :<br>
+Version 1 : boucle<br>
+sommeIterative(n)<br>
+Version 2 : récursion<br>
+sommeRecursive(n)<br>
+## Analyse demandée :<br>
+1 - Quel code est le plus lisible ?<br>
+2 - Quel code est le plus performant ?<br>
+3 - La récursion peut-elle poser des problèmes ? Pourquoi ?<br>
+4 - Dans quels cas privilégier une boucle ?<br>
